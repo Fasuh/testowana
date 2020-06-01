@@ -1,0 +1,93 @@
+body{
+background-image:white
+}
+#wszystko{
+  margin: 0 auto;
+  height:1000;
+  width:1000;
+  background-color:white;
+}
+#header{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#009;
+  font-size: 50px;
+  text-align:center;
+  float:left;
+  height:300;
+  width:1000;
+  background-color:white;
+  border-bottom-style:solid;
+  border-width:5px;
+  border-color:#009;
+
+}
+#head{
+  float:left;
+}
+#menu{
+  float:left;
+  height:70;
+  width:1000;
+  background-color:white;
+}
+#container{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#009;
+  font-size: 20px;
+  text-align:center;
+  float:left;
+  height:650;
+  width:1000;
+  background-color:white;
+  border-top-style:solid;
+  border-width:5px;
+  border-color:#009;
+}
+.buttons {
+    overflow:hidden;
+}
+.but{
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+
+
+    background-color:white;
+    display:block;
+    float:left;
+    margin:10px;
+    overflow:hidden;
+    padding:10px 15px;
+    position:relative;
+    text-decoration:none;
+
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+
+    font-family: 'Audiowide', cursive;
+    font-size:18px;
+    color:#009;
+    float:left;
+    font-weight:bold;
+    line-height:32px;
+}
+.but:hover{
+color:#005;
+background-color:#00A;
+
+-webkit-box-shadow: -1px -1px 30px 0px rgba(0, 0, 255, 1);
+-moz-box-shadow:    -1px -1px 30px 0px rgba(0, 0, 255, 1);
+box-shadow:         -1px -1px 30px 0px rgba(0, 0, 255, 1);
+
+text-shadow: 0 0 0.20em #78F, 0 0 0.20em #78F,
+    transition-property: text-shadow;
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.10s ease-in-out;
+    -o-transition:all 0.10s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}

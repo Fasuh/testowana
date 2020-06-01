@@ -1,0 +1,260 @@
+body{
+background-color:black;
+}
+.tables{
+	height:25px;
+	width:25px;
+	background-color:gray;
+	border:1px solid black;
+	color:gray;
+}
+.kolorki{
+        float:left;
+        width:25px;
+        height:25px;
+        background-color:lightgray;
+        border:1px solid black;
+}
+#wszystko{
+  text-decoration:none;
+  margin: 0 auto;
+  height:1000;
+  width:1000;
+  background-color:black;
+}
+#header{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#999;
+  font-size: 50px;
+  text-align:center;
+  float:left;
+  height:300;
+  width:1000;
+  background-color:black;
+  border-bottom-style:solid;
+  border-width:5px;
+  border-color:#999;
+
+}
+#head{
+  text-decoration:none;
+  float:left;
+}
+#menu{
+  text-decoration:none;
+  float:left;
+  height:70;
+  width:1000;
+  background-color:black;
+}
+#container{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#999;
+  font-size: 20px;
+  text-align:center;
+  float:left;
+  height:650;
+  width:1000;
+  background-color:black;
+  border-top-style:solid;
+  border-width:5px;
+  border-color:#999;
+  padding:50px 0px;
+}
+.buttons {
+    text-decoration: none;
+    overflow:hidden;
+}
+#kalendarz{
+  color:#999;
+  font-family: 'Stalinist One', cursive;
+}
+.but{
+    text-decoration: none;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+
+
+    background-color:black;
+    display:block;
+    float:left;
+    margin:10px;
+    overflow:hidden;
+    padding:10px 15px;
+    position:relative;
+    text-decoration:none;
+
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+
+    font-family: 'Audiowide', cursive;
+    font-size:18px;
+    color:#999;
+    float:left;
+    font-weight:bold;
+    line-height:32px;
+}
+.but:hover{
+color:#555;
+background-color:#AAA;
+
+-webkit-box-shadow: -1px -1px 30px 0px rgba(255, 255, 255, 1);
+-moz-box-shadow:    -1px -1px 30px 0px rgba(255, 255, 255, 1);
+box-shadow:         -1px -1px 30px 0px rgba(255, 255, 255, 1);
+
+text-shadow: 0 0 0.20em #FFF, 0 0 0.20em #FFF,
+    transition-property: text-shadow;
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.10s ease-in-out;
+    -o-transition:all 0.10s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}
+#calce1{
+    display:block;
+    overflow:hidden;
+    text-decoration: none;
+    display: none;
+    color:#555;
+    
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+  border-top-style:solid;
+  border-width:1px;
+  border-height:5px;
+  border-color:#555;
+}
+.JM{
+	position: absolute;
+        left: 420;
+        top: 700;
+        z-index: 0;
+}
+#tekst{
+        position: relative;
+        z-index: 1;
+}
+#out{
+	width: 1000;
+	padding:0px 80px 0px 0px;
+	margin: 0 auto;
+	font-size:15px;
+}
+#out2{
+        width:265px;
+        height:265px;
+}
+.saper{
+        font-size:10px;
+        float:left;
+        width:25px;
+        height:25px;
+        background-color:lightgray;
+        border:1px solid black;
+}
+.saper:hover{
+        background-color:gray;
+}
+.hidden{
+        display:block;
+        overflow:hidden;
+        display: none;
+        width:24px;
+        height:24px;
+}
+#staty{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#999;
+  font-size: 15px;
+  text-align:center;
+  height:300;
+  width:200;
+  background-color:black;
+  border-style:solid;
+  border-width:5px;
+  border-color:#999;
+}
+#nick{
+	height:20;
+}
+#avatar{
+	height:50;
+}
+#stats{
+	height:125;
+}
+#level{
+	height:70;
+}
+#pnick{
+	height:20;
+}
+#pavatar{
+	height:50;
+}
+#pstats{
+	height:125;
+}
+#error1{
+	  font-size: 15px;
+}
+.statystyki{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#999;
+  font-size: 15px;
+  text-align:center;
+  height:400;
+  width:200;
+  background-color:black;
+  border-style:solid;
+  border-width:5px;
+  border-color:#999;
+  float:left;
+
+  }
+#battleground{
+	width:700;
+}
+#wybor{
+  text-decoration:none;
+  font-family: 'Stalinist One', cursive;
+  color:#999;
+  font-size: 15px;
+  text-align:center;
+  height:400;
+  width:270;
+  background-color:black;
+  border-top-style:solid;
+  border-top-width:5px;
+  border-top-color:#999;
+  border-bottom-style:solid;
+  border-bottom-width:5px;
+  border-bottom-color:#999;
+  float:left;
+}
+#death{
+	width:700;
+    display:block;
+    overflow:hidden;
+    display: none;
+    height:300px;
+}
+#sklepik{
+		position:absolute;
+		background-color:black;
+        width:270px;
+        height:400px;
+}
+#error2{
+		height:200;
+		width:200;
+}
